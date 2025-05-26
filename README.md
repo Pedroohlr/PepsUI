@@ -36,15 +36,15 @@ Basta importar e utilizar qualquer componente:
 
 ```tsx
 // app/page.tsx (Next.js) ou App.tsx (React)
-import { Button } from 'pepsui';
+import { Button, Card } from 'pepsui';
 
 export default function Home() {
   return (
-    <div className="p-8">
+    <Card borderSize="lg">
       <Button variant="solid" onClick={() => alert('Olá, PepsUI!')}>
         Clique aqui
       </Button>
-    </div>
+    </Card>
   );
 }
 ```
