@@ -40,11 +40,13 @@ import { Button, Card } from 'pepsui';
 
 export default function Home() {
   return (
-    <Card borderSize="lg">
-      <Button variant="solid" onClick={() => alert('Olá, PepsUI!')}>
-        Clique aqui
-      </Button>
-    </Card>
+    <div className="flex flex-col bg-gray-100 min-h-screen justify-center items-center">
+      <Card borderSize="lg">
+        <Button variant="solid" onClick={() => alert('Olá, PepsUI!')}>
+          Clique aqui
+        </Button>
+      </Card>
+    </div>
   );
 }
 ```
