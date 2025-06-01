@@ -12,10 +12,9 @@ const borderClassMap: Record<BorderSize, string> = {
   none: "",
   sm: "border", //1px
   md: "border-2", //2px
-  lg: "border-4", //4px
+  lg: "border-4", //4px 
   xl: "border-8", //8px
 }
-
 
 export const Card: React.FC<ICard> = (
   {
