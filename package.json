@@ -1,6 +1,6 @@
 {
   "name": "pepsui",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Biblioteca de componentes React PepsUI",
   "repository": {
     "type": "git",
@@ -24,8 +24,8 @@
     "prepare": "npm run build"
   },
   "peerDependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "dependencies": {
     "tslib": "^2.8.1"
